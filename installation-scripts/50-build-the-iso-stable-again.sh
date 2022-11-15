@@ -20,9 +20,9 @@ echo
 	desktop="plasma"
 	dmDesktop="plasma"
 
-	adkVersion='v22.11-stable'
+	adkVersion='v22.112-stable'
 
-	isoLabel='adk-stable-'$(date +%Y.%m).01'-x86_64.iso'
+	isoLabel='adk-stable-'2022.12.01'-x86_64.iso'
 
 	# setting of the general parameters
 	archisoRequiredVersion="archiso 68-1"
@@ -186,8 +186,8 @@ echo
 	newname5='Session='$dmDesktop
 
 	#version
-	oldname6='iso_version="$(date +%Y.%m).01"'
-	newname6='iso_version="$(date +%Y.%m).01-stable"'
+	oldname6='iso_version="2022.12.01"'
+	newname6='iso_version="2022.12.01-stable"'
 
 	echo "Changing all references"
 	echo
