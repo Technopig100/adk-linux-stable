@@ -66,6 +66,7 @@ grub
 grub-btrfs
 gst-plugins-bad
 gst-plugins-good
+gtksu-git
 gvfs-smb
 hdparm
 hunspell
