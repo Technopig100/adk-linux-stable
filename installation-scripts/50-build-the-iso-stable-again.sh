@@ -139,6 +139,8 @@ echo
 	echo
 	mkdir $buildFolder
 	cp -r ../adkiso $buildFolder/adkiso
+	echo "Deleting pamac.conf if one exists - for stable"
+	rm -f $buildFolder/adkiso/airootfs/etc/pamac.conf
 
 echo
 echo "################################################################## "
